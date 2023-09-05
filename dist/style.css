@@ -1,0 +1,54 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 960px;
+}
+
+
+#title, #description{
+  text-align: center;
+}
+.node {
+  border: solid 1px white;
+  font: 8px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+  color: black;
+  
+}
+
+.node-text{
+  fill: white;
+  font: 8px sans-serif;
+  position: absolute;
+  line-height: 12px;
+  overflow: hidden;
+  text-indent: 2px;
+}
+
+#tooltip{
+  position: absolute;
+  padding: 10px;                
+  font: 12px Arial;        
+  background-color: lightyellow;
+  box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.6);
+  border: 0px;        
+  border-radius: 2px;            
+  pointer-events: none; 
+}
+
+#legend{
+  font-size: 12px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-bottom: 5px;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
